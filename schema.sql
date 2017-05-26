@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS items;
+
+CREATE TABLE items(
+  id SERIAL PRIMARY KEY,
+  num VARCHAR(10),
+  ingredient VARCHAR(600)
+);
